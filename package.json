@@ -1,0 +1,22 @@
+{
+  "name": "invoices-os",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^3.0.7",
+    "@supabase/supabase-js": "^2.90.0",
+    "ai": "^6.0.19",
+    "dotenv": "^17.2.3",
+    "googleapis": "^170.0.0",
+    "hono": "^4.11.3",
+    "node-cron": "^4.2.1",
+    "pdf-text-reader": "^5.1.0"
+  }
+}
